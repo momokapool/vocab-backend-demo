@@ -3,7 +3,8 @@ const app = express()
 
 //1) declare & config "mongoose"
 const mongoose = require('mongoose')
-const db = "mongodb+srv://lgb:lgb191004@cluster0.ked3o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  //vocab-builder: db name
+const db = "mongodb+srv://lgb:lgb191004@cluster0.ked3o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  //vocab-builder: db name
 
 
 mongoose.connect(db)
