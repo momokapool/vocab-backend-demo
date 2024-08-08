@@ -3,7 +3,7 @@ const app = express()
 
 //1) declare & config "mongoose"
 const mongoose = require('mongoose')
-const db = "mongodb+srv://lgb:lgb191004@cluster0.ked3o.mongodb.net/Vocab-builder"
+const db = "mongodb://127.0.0.1:27017/vocab-builder"
   //vocab-builder: db name
 
 
